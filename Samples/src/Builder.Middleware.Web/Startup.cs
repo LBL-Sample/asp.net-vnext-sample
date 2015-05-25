@@ -56,7 +56,7 @@ namespace Builder.Middleware.Web
     public class MyMiddleware
     {
         private RequestDelegate _next;
-        private string _greeting;
+        private readonly string _greeting;
         private IServiceProvider _service;
 
         public MyMiddleware(RequestDelegate next, string greeting, IServiceProvider service)
