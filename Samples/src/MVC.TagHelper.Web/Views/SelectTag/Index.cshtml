@@ -1,0 +1,23 @@
+﻿@model MVC.TagHelper.Web.Models.SelectViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Select Tag Helper</h2>
+
+<select asp-for="CountryCode">
+    <option value="BJ">BeiJing</option>
+    <option value="CC">ChangChun</option>
+    <option value="HB">HeiBei</option>
+</select>
+
+@*绑定集合注意：集合必须为IEnumerable<SelectListItem>*@
+<select asp-for="CountryCode"
+         asp-items="ViewBag.Countties">
+</select>
+
+@*多选*@
+<select asp-for="CountryCodes"
+        asp-items="ViewBag.Countties"></select>
