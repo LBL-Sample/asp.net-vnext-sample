@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{66547B62-3F06-4223-8306-79A9071D1286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66AB87A6-8F07-40AF-AFF7-E5492B6F6ADB}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{6A416557-FB01-4454-97E7-FEB899B50D16}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Builder.Filtering.Web", "src\Builder.Filtering.Web\Builder.Filtering.Web.xproj", "{BCC007E8-9D73-4986-BDB3-9841FECF67E9}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Builder.HelloBoyceLyu.Web", "src\Builder.HelloBoyceLyu.Web\Builder.HelloBoyceLyu.Web.xproj", "{84664FFB-532F-45C1-83E1-6AB17A57892D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Builder.Middleware.Web", "src\Builder.Middleware.Web\Builder.Middleware.Web.xproj", "{29651184-491D-4489-8774-0CE10B2F8DD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{3D43A7A9-C383-4D38-9EAE-4BF3BCEAEA9C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVC.ViewLocation.Web", "src\MVC.ViewLocation.Web\MVC.ViewLocation.Web.xproj", "{2FFA1717-1A10-4C01-AFD6-91533C3FD79E}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVC.TagHelper.Web", "src\MVC.TagHelper.Web\MVC.TagHelper.Web.xproj", "{CA90FCFE-FECF-4F60-99AD-A9E02578E37B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCC007E8-9D73-4986-BDB3-9841FECF67E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC007E8-9D73-4986-BDB3-9841FECF67E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC007E8-9D73-4986-BDB3-9841FECF67E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC007E8-9D73-4986-BDB3-9841FECF67E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84664FFB-532F-45C1-83E1-6AB17A57892D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84664FFB-532F-45C1-83E1-6AB17A57892D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84664FFB-532F-45C1-83E1-6AB17A57892D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84664FFB-532F-45C1-83E1-6AB17A57892D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29651184-491D-4489-8774-0CE10B2F8DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29651184-491D-4489-8774-0CE10B2F8DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29651184-491D-4489-8774-0CE10B2F8DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29651184-491D-4489-8774-0CE10B2F8DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFA1717-1A10-4C01-AFD6-91533C3FD79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFA1717-1A10-4C01-AFD6-91533C3FD79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFA1717-1A10-4C01-AFD6-91533C3FD79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFA1717-1A10-4C01-AFD6-91533C3FD79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA90FCFE-FECF-4F60-99AD-A9E02578E37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA90FCFE-FECF-4F60-99AD-A9E02578E37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA90FCFE-FECF-4F60-99AD-A9E02578E37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA90FCFE-FECF-4F60-99AD-A9E02578E37B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A416557-FB01-4454-97E7-FEB899B50D16} = {66547B62-3F06-4223-8306-79A9071D1286}
+		{BCC007E8-9D73-4986-BDB3-9841FECF67E9} = {6A416557-FB01-4454-97E7-FEB899B50D16}
+		{84664FFB-532F-45C1-83E1-6AB17A57892D} = {6A416557-FB01-4454-97E7-FEB899B50D16}
+		{29651184-491D-4489-8774-0CE10B2F8DD7} = {6A416557-FB01-4454-97E7-FEB899B50D16}
+		{3D43A7A9-C383-4D38-9EAE-4BF3BCEAEA9C} = {66547B62-3F06-4223-8306-79A9071D1286}
+		{2FFA1717-1A10-4C01-AFD6-91533C3FD79E} = {3D43A7A9-C383-4D38-9EAE-4BF3BCEAEA9C}
+		{CA90FCFE-FECF-4F60-99AD-A9E02578E37B} = {3D43A7A9-C383-4D38-9EAE-4BF3BCEAEA9C}
+	EndGlobalSection
+EndGlobal
