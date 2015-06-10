@@ -24,6 +24,12 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVC.ViewLocation.Web", "src
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MVC.TagHelper.Web", "src\MVC.TagHelper.Web\MVC.TagHelper.Web.xproj", "{CA90FCFE-FECF-4F60-99AD-A9E02578E37B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{CB2A99AD-B2D5-485C-BD9E-67EEDC3ADE93}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Other.DebuggingExternalSourceCode", "src\Other.DebuggingExternalSourceCode\Other.DebuggingExternalSourceCode.xproj", "{2BB88817-C134-48A4-AA54-D0D13D02773A}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Microsoft.Framework.OptionsModel", "..\..\aspnet\Options\src\Microsoft.Framework.OptionsModel\Microsoft.Framework.OptionsModel.xproj", "{BA4EF3CE-1829-4E0E-8281-BD503FF8A682}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +56,14 @@ Global
 		{CA90FCFE-FECF-4F60-99AD-A9E02578E37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA90FCFE-FECF-4F60-99AD-A9E02578E37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA90FCFE-FECF-4F60-99AD-A9E02578E37B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB88817-C134-48A4-AA54-D0D13D02773A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB88817-C134-48A4-AA54-D0D13D02773A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB88817-C134-48A4-AA54-D0D13D02773A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB88817-C134-48A4-AA54-D0D13D02773A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA4EF3CE-1829-4E0E-8281-BD503FF8A682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4EF3CE-1829-4E0E-8281-BD503FF8A682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4EF3CE-1829-4E0E-8281-BD503FF8A682}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4EF3CE-1829-4E0E-8281-BD503FF8A682}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +76,7 @@ Global
 		{3D43A7A9-C383-4D38-9EAE-4BF3BCEAEA9C} = {66547B62-3F06-4223-8306-79A9071D1286}
 		{2FFA1717-1A10-4C01-AFD6-91533C3FD79E} = {3D43A7A9-C383-4D38-9EAE-4BF3BCEAEA9C}
 		{CA90FCFE-FECF-4F60-99AD-A9E02578E37B} = {3D43A7A9-C383-4D38-9EAE-4BF3BCEAEA9C}
+		{CB2A99AD-B2D5-485C-BD9E-67EEDC3ADE93} = {66547B62-3F06-4223-8306-79A9071D1286}
+		{2BB88817-C134-48A4-AA54-D0D13D02773A} = {66547B62-3F06-4223-8306-79A9071D1286}
 	EndGlobalSection
 EndGlobal

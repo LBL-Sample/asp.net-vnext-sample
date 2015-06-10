@@ -1,5 +1,9 @@
 ﻿{
-    "projects": [ "src", "test" ],
+  "projects": [
+    "src",
+    "test",
+    "D:/OpenSource/aspnet/Options/src"
+  ],
     "sdk": {
         "version": "1.0.0-beta4"
     }
